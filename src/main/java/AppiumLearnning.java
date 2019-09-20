@@ -29,7 +29,7 @@ public class AppiumLearnning {
 		
 		driver= new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), caps);
 		
-		
+		System.out.println("driver initialized!!!");
 	   
 		Thread.sleep(6000);
 		driver.findElement(By.id("android:id/text1")).click();
