@@ -36,7 +36,7 @@ public class AppiumLearnning {
 
 
 		Thread.sleep(15000);
-		driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Argentina\"));").click();;
+		driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Argentina\"));").click();
 		Thread.sleep(15000);
 
 	
